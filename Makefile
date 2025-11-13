@@ -1,40 +1,40 @@
-touch mk/var.mk
-touch mk/dir.mk
-touch mk/tool.mk
-touch mk/doc.mk
-touch mk/ref.mk
-touch mk/gz.mk
-touch mk/install.mk
+include mk/var.mk
+include mk/dir.mk
+include mk/tool.mk
+include mk/doc.mk
+include mk/sync.mk
+include mk/ref.mk
+include mk/gz.mk
+include mk/install.mk
 
-# touch mk/all.mk
-# touch mk/ocaml.mk
-# touch mk/clean.mk
-# touch mk/dotnet.mk
-# touch mk/pkg.mk
-# touch mk/merge.mk
-# touch mk/docker.mk
-# touch mk/rule.mk
-# touch mk/boot.mk
-# touch mk/rust.mk
-# touch mk/version.mk
-# touch mk/linux.mk
-# touch mk/ts.mk
-# touch mk/debstrap.mk
-# touch mk/cross.mk
-# touch mk/pcpp.mk
-# touch mk/src.mk
-# touch mk/kaitai.mk
-# touch mk/wasm.mk
-# touch mk/ai.mk
-# touch mk/net.mk
-# touch mk/qucs.mk
-# touch mk/python.mk
-# touch mk/squid.mk
-# touch mk/patch.mk
-# touch mk/llvm.mk
-# touch mk/debug.mk
-# touch mk/go.mk
-# touch mk/cfg.mk
-# touch mk/format.mk
-# touch mk/libc.mk
-# touch mk/sync.mk
+# include mk/all.mk
+# include mk/ocaml.mk
+# include mk/clean.mk
+# include mk/dotnet.mk
+# include mk/pkg.mk
+# include mk/merge.mk
+# include mk/docker.mk
+# include mk/rule.mk
+# include mk/boot.mk
+# include mk/rust.mk
+# include mk/version.mk
+# include mk/linux.mk
+# include mk/ts.mk
+# include mk/debstrap.mk
+# include mk/cross.mk
+# include mk/pcpp.mk
+# include mk/src.mk
+# include mk/kaitai.mk
+# include mk/wasm.mk
+# include mk/ai.mk
+# include mk/net.mk
+# include mk/qucs.mk
+# include mk/python.mk
+# include mk/squid.mk
+# include mk/patch.mk
+# include mk/llvm.mk
+# include mk/debug.mk
+# include mk/go.mk
+# include mk/cfg.mk
+# include mk/format.mk
+# include mk/libc.mk
