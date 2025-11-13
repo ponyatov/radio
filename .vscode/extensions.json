@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "stkb.rewrap",
+        "ms-vscode.makefile-tools",
+        "IBM.output-colorizer",
+        "usernamehw.errorlens",
+        // formatters
+        "xaver.clang-format",
+        "esbenp.prettier-vscode",
+        "foxundermoon.shell-format",
+        // Linux
+        "ms-vscode-remote.remote-ssh",
+        "coolbear.systemd-unit-file",
+        // embedded
+        "ivannovak1004.gnuradio-integration",
+        // Python
+        "ms-python.python",
+        "ms-python.autopep8",
+    ]
+}
