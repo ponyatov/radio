@@ -12,6 +12,17 @@ radio-deinstall:
 		/etc/modprobe.d/blacklist-rtl2832.conf
 	sudo update-initramfs -u
 
+RTLSDR_DEB += $(REF)/librtlsdr0_$(RTLSDR_VER)_amd64.deb
+RTLSDR_DEB += $(REF)/librtlsdr0-dbgsym_$(RTLSDR_VER)_amd64.deb
+RTLSDR_DEB += $(REF)/librtlsdr-dev_$(RTLSDR_VER)_amd64.deb
+RTLSDR_DEB += $(REF)/rtl-sdr_$(RTLSDR_VER)_amd64.deb
+RTLSDR_DEB += $(REF)/rtl-sdr-dbgsym_$(RTLSDR_VER)_amd64.deb
+
+.PHONY: radio-deb
+radio-deb: $(RTLSDR_DEB)
+$(RTLSDR_DEB): ref/rtl-sdr/README
+	cd $(dir $<) ; dpkg-buildpackage -b --no-sign && touch $@
+
 RF += /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
 /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf:
 	echo 'blacklist dvb_usb_rtl28xxu' | sudo tee -a $@
