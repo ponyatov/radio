@@ -74,7 +74,7 @@
         },
         "WFM": {
             "FMIFNREnabled": false,
-            "bandwidth": 197867.796875,
+            "bandwidth": 200000.0,
             "deempMode": "50us",
             "lowPass": true,
             "noiseBlankerEnabled": false,

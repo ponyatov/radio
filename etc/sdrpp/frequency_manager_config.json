@@ -72,13 +72,7 @@
             "showOnWaterfall": true
         },
         "General": {
-            "bookmarks": {
-                "106.6": {
-                    "bandwidth": 200000.0,
-                    "frequency": 106600000.0,
-                    "mode": 1
-                }
-            },
+            "bookmarks": {},
             "showOnWaterfall": true
         }
     },
