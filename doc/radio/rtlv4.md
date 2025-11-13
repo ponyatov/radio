@@ -75,3 +75,4 @@ Device Qualifier (for other device speed):
 Device Status:     0x0000
   (Bus Powered)
 ```
+

@@ -3,4 +3,4 @@ code meld doxygen clang-format
 g++ gdb cmake
 flex bison ragel libreadline-dev
 python3 python3-autopep8
-gnuradio librtlsdr-dev build-essential libusb-1.0-0-dev
+gnuradio librtlsdr-dev build-essential libusb-1.0-0-dev gqrx-sdr rtl-sdr

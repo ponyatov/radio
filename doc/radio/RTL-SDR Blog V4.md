@@ -1,4 +1,6 @@
-# RTL-SDR Blog v4
+# [[RTL-SDR]] Blog v4
+
+![](https://habrastorage.org/r/w780/getpro/habr/upload_files/dee/901/fee/dee901fee8f179087bd18f7b8bc79342.jpg)
 
 ![[rtlv4]]
 
