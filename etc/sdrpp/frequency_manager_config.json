@@ -33,6 +33,11 @@
                     "frequency": 102900000.0,
                     "mode": 1
                 },
+                "103.4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 103400000.0,
+                    "mode": 1
+                },
                 "103.6": {
                     "bandwidth": 200000.0,
                     "frequency": 103600000.0,
