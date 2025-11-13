@@ -1,4 +1,6 @@
 # [[RTL-SDR]] Blog v4
+> [[RTL2832U]] + [[R828D]]
+> need new [[#Drivers]] !!!
 
 https://www.rtl-sdr.com/v4/
 
@@ -37,3 +39,6 @@ RTL-SDR Blog V4 — это недорогой USB-приёмник (донгл, 
 Due to the required changes made to the circuitry, updated drivers are necessary for the [[RTL-SDR Blog V4]]. These drivers are backwards compatible with the RTL-SDR Blog V3 and older / other branded / generic [[RTL-SDR]] units as well.
 
 ![[PLL not locked]]
+
+Due to the required changes made to the circuitry, updated drivers are necessary for the RTL-SDR Blog V4. These drivers are backwards compatible with the [[RTL-SDR Blog V3]] and older / other branded / generic RTL-SDR units as well.
+

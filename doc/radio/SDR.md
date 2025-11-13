@@ -6,6 +6,7 @@
 ## [[ranges]]
 
 ## [[RTL-SDR]]
+## [[RSP1]]
 
 ## [[FeatureSDR]]
 
