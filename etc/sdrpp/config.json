@@ -21,7 +21,7 @@
     "fftSmoothing": false,
     "fftSmoothingSpeed": 100,
     "fftWindow": 2,
-    "frequency": 99618933.90191898,
+    "frequency": 855720000.0,
     "fullWaterfallUpdate": false,
     "fullscreen": false,
     "invertIQ": false,
@@ -76,7 +76,7 @@
             "open": false
         }
     ],
-    "menuWidth": 300,
+    "menuWidth": 250,
     "min": -114.11764526367188,
     "moduleInstances": {
         "Airspy Source": {
@@ -226,7 +226,7 @@
         "Radio": "#FFFFFF"
     },
     "vfoOffsets": {
-        "Radio": -518933.9019189775
+        "Radio": 280000.0
     },
     "windowSize": {
         "h": 724,

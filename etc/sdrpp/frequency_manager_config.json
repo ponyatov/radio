@@ -1,8 +1,23 @@
 {
     "bookmarkDisplayMode": 1,
     "lists": {
+        "Avia": {
+            "bookmarks": {
+                "ID": {
+                    "bandwidth": 200000.0,
+                    "frequency": 1090000000.0,
+                    "mode": 1
+                }
+            },
+            "showOnWaterfall": true
+        },
         "FM": {
             "bookmarks": {
+                "100.3": {
+                    "bandwidth": 200000.0,
+                    "frequency": 100300000.0,
+                    "mode": 1
+                },
                 "101.0": {
                     "bandwidth": 200000.0,
                     "frequency": 101000000.0,
@@ -43,9 +58,99 @@
                     "frequency": 106600000.0,
                     "mode": 1
                 },
+                "85.5": {
+                    "bandwidth": 200000.0,
+                    "frequency": 85500000.0,
+                    "mode": 1
+                },
+                "88.2": {
+                    "bandwidth": 200000.0,
+                    "frequency": 88200000.0,
+                    "mode": 1
+                },
+                "88.7": {
+                    "bandwidth": 200000.0,
+                    "frequency": 88700000.0,
+                    "mode": 1
+                },
+                "89.2": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89200000.0,
+                    "mode": 1
+                },
+                "89.6": {
+                    "bandwidth": 200000.0,
+                    "frequency": 89600000.0,
+                    "mode": 1
+                },
+                "91.0": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 91000000.0,
+                    "mode": 1
+                },
+                "91.5": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 91500000.0,
+                    "mode": 1
+                },
+                "92.5": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 92500000.0,
+                    "mode": 1
+                },
+                "92.9": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 92900000.0,
+                    "mode": 1
+                },
+                "93.5": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 93500000.0,
+                    "mode": 1
+                },
+                "95.7": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 95700000.0,
+                    "mode": 1
+                },
+                "96.1": {
+                    "bandwidth": 191452.99145299147,
+                    "frequency": 96100000.0,
+                    "mode": 1
+                },
+                "96.3": {
+                    "bandwidth": 200000.0,
+                    "frequency": 96300000.0,
+                    "mode": 1
+                },
+                "96.8": {
+                    "bandwidth": 200000.0,
+                    "frequency": 96800000.0,
+                    "mode": 1
+                },
+                "97.3": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97300000.0,
+                    "mode": 1
+                },
+                "97.8": {
+                    "bandwidth": 200000.0,
+                    "frequency": 97800000.0,
+                    "mode": 1
+                },
+                "98.2": {
+                    "bandwidth": 200000.0,
+                    "frequency": 98200000.0,
+                    "mode": 1
+                },
                 "98.6": {
                     "bandwidth": 200000.0,
                     "frequency": 98600000.0,
+                    "mode": 1
+                },
+                "98.9": {
+                    "bandwidth": 200000.0,
+                    "frequency": 98900000.0,
                     "mode": 1
                 },
                 "99.1": {
@@ -73,6 +178,26 @@
         },
         "General": {
             "bookmarks": {},
+            "showOnWaterfall": true
+        },
+        "Unknown": {
+            "bookmarks": {
+                "868.0": {
+                    "bandwidth": 200000.0,
+                    "frequency": 868000000.0,
+                    "mode": 1
+                },
+                "868.8": {
+                    "bandwidth": 200000.0,
+                    "frequency": 868800000.0,
+                    "mode": 1
+                },
+                "869.1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 869100000.0,
+                    "mode": 1
+                }
+            },
             "showOnWaterfall": true
         }
     },

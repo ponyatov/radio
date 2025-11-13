@@ -2,7 +2,7 @@
     "Radio": {
         "AM": {
             "FMIFNREnabled": false,
-            "bandwidth": 10000.0,
+            "bandwidth": 15000.0,
             "deempMode": "None",
             "noiseBlankerEnabled": false,
             "noiseBlankerLevel": 1.0,
@@ -32,7 +32,7 @@
         },
         "FM": {
             "FMIFNREnabled": false,
-            "bandwidth": 12500.0,
+            "bandwidth": 50000.0,
             "deempMode": "None",
             "fmifnrPreset": "Narrow Band",
             "highPass": false,
