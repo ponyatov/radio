@@ -1,0 +1,81 @@
+{
+    "bookmarkDisplayMode": 1,
+    "lists": {
+        "FM": {
+            "bookmarks": {
+                "101.0": {
+                    "bandwidth": 197867.80383795308,
+                    "frequency": 101000000.0,
+                    "mode": 1
+                },
+                "102.5": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102500000.0,
+                    "mode": 1
+                },
+                "102.9": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102900000.0,
+                    "mode": 1
+                },
+                "104.3": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104300000.0,
+                    "mode": 1
+                },
+                "104.8": {
+                    "bandwidth": 200000.0,
+                    "frequency": 104800000.0,
+                    "mode": 1
+                },
+                "105.4": {
+                    "bandwidth": 200000.0,
+                    "frequency": 105400000.0,
+                    "mode": 1
+                },
+                "106.1": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106100000.0,
+                    "mode": 1
+                },
+                "106.6": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106600000.0,
+                    "mode": 1
+                },
+                "98.6": {
+                    "bandwidth": 197867.80383795308,
+                    "frequency": 98600000.0,
+                    "mode": 1
+                },
+                "99.1": {
+                    "bandwidth": 197867.80383795308,
+                    "frequency": 99100000.0,
+                    "mode": 1
+                },
+                "Дача": {
+                    "bandwidth": 200000.0,
+                    "frequency": 102100000.0,
+                    "mode": 1
+                },
+                "Рекорд": {
+                    "bandwidth": 200000.0,
+                    "frequency": 101500000.0,
+                    "mode": 1
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "General": {
+            "bookmarks": {
+                "106.6": {
+                    "bandwidth": 200000.0,
+                    "frequency": 106600000.0,
+                    "mode": 1
+                }
+            },
+            "showOnWaterfall": true
+        }
+    },
+    "selectedList": "FM"
+}

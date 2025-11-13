@@ -17,6 +17,7 @@ RTLSDR_DEB += $(REF)/rtl-sdr_$(RTLSDR_VER)_amd64.deb
 # RTLSDR_DEB += $(REF)/librtlsdr-dev_$(RTLSDR_VER)_amd64.deb
 # RTLSDR_DEB += $(REF)/librtlsdr0-dbgsym_$(RTLSDR_VER)_amd64.deb
 # RTLSDR_DEB += $(REF)/rtl-sdr-dbgsym_$(RTLSDR_VER)_amd64.deb
+SDRPP_DEB += $(REF)/sdrpp_debian_bookworm_amd64.deb
 
 .PHONY: radio-deb
 radio-deb: $(RTLSDR_DEB)
@@ -35,12 +36,11 @@ RF += ref/rtl-sdr/README
 ref/rtl-sdr/README:
 	$(GITREF) https://github.com/osmocom/rtl-sdr.git $(dir $@)
 
-# GZ += tmp/sdrpp_debian_bookworm_amd64.deb
-# tmp/sdrpp_debian_bookworm_amd64.deb:
-# 	$(CURL) $@ https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_debian_bookworm_amd64.deb
+RF += $(SDRPP_DEB)
+$(SDRPP_DEB):
+	$(CURL) $@ https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_debian_bookworm_amd64.deb
 
-# .PHONY: sdrpp
-# sdrpp: tmp/sdrpp_debian_bookworm_amd64.deb
-# 	-sudo apt install -uy rtl-sdr
-# 	-sudo dpkg -i $<
+.PHONY: sdrpp
+sdrpp: $(SDRPP_DEB)
+	-sudo dpkg -i $<
 # 	-sudo apt --fix-broken install

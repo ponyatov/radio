@@ -1,0 +1,9 @@
+{
+    "Radio": {
+        "device": "",
+        "devices": {
+            "Built-in Audio Analog Stereo": 44100,
+            "XFW-BT": 44100
+        }
+    }
+}
