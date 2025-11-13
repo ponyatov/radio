@@ -1,4 +1,6 @@
 git make curl
-code meld doxygen
+code meld doxygen clang-format
+g++ gdb cmake
+flex bison ragel libreadline-dev
 python3 python3-autopep8
 gnuradio
