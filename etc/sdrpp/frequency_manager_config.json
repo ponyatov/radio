@@ -4,7 +4,7 @@
         "FM": {
             "bookmarks": {
                 "101.0": {
-                    "bandwidth": 197867.80383795308,
+                    "bandwidth": 200000.0,
                     "frequency": 101000000.0,
                     "mode": 1
                 },
@@ -44,13 +44,18 @@
                     "mode": 1
                 },
                 "98.6": {
-                    "bandwidth": 197867.80383795308,
+                    "bandwidth": 200000.0,
                     "frequency": 98600000.0,
                     "mode": 1
                 },
                 "99.1": {
-                    "bandwidth": 197867.80383795308,
+                    "bandwidth": 200000.0,
                     "frequency": 99100000.0,
+                    "mode": 1
+                },
+                "99.9": {
+                    "bandwidth": 200000.0,
+                    "frequency": 99900000.0,
                     "mode": 1
                 },
                 "Дача": {
