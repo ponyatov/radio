@@ -6,20 +6,22 @@ radio: ref
 
 .PHONY: radio-deinstall
 radio-deinstall:
-	sudo apt purge -y rtl-sdr librtlsdr*
+	sudo apt purge -y rtl-sdr* librtlsdr*
 	sudo rm \
 		/etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf \
 		/etc/modprobe.d/blacklist-rtl2832.conf
 	sudo update-initramfs -u
 
 RTLSDR_DEB += $(REF)/librtlsdr0_$(RTLSDR_VER)_amd64.deb
-RTLSDR_DEB += $(REF)/librtlsdr0-dbgsym_$(RTLSDR_VER)_amd64.deb
-RTLSDR_DEB += $(REF)/librtlsdr-dev_$(RTLSDR_VER)_amd64.deb
 RTLSDR_DEB += $(REF)/rtl-sdr_$(RTLSDR_VER)_amd64.deb
-RTLSDR_DEB += $(REF)/rtl-sdr-dbgsym_$(RTLSDR_VER)_amd64.deb
+# RTLSDR_DEB += $(REF)/librtlsdr-dev_$(RTLSDR_VER)_amd64.deb
+# RTLSDR_DEB += $(REF)/librtlsdr0-dbgsym_$(RTLSDR_VER)_amd64.deb
+# RTLSDR_DEB += $(REF)/rtl-sdr-dbgsym_$(RTLSDR_VER)_amd64.deb
 
 .PHONY: radio-deb
 radio-deb: $(RTLSDR_DEB)
+	sudo dpkg -i $(REF)/librtlsdr0_$(RTLSDR_VER)_amd64.deb
+	sudo dpkg -i $(REF)/rtl-sdr_$(RTLSDR_VER)_amd64.deb
 $(RTLSDR_DEB): ref/rtl-sdr/README
 	cd $(dir $<) ; dpkg-buildpackage -b --no-sign && touch $@
 
