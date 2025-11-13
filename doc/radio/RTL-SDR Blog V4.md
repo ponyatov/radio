@@ -1,5 +1,7 @@
 # [[RTL-SDR]] Blog v4
 
+https://www.rtl-sdr.com/v4/
+
 ![](https://habrastorage.org/r/w780/getpro/habr/upload_files/dee/901/fee/dee901fee8f179087bd18f7b8bc79342.jpg)
 
 ![[rtlv4]]
@@ -30,3 +32,8 @@ RTL-SDR Blog V4 — это недорогой USB-приёмник (донгл, 
 
 ![](https://habrastorage.org/r/w780/getpro/habr/upload_files/365/913/7c3/3659137c3a7304428318c4ebf1ae06a5.jpg)
 
+## Drivers
+
+Due to the required changes made to the circuitry, updated drivers are necessary for the [[RTL-SDR Blog V4]]. These drivers are backwards compatible with the RTL-SDR Blog V3 and older / other branded / generic [[RTL-SDR]] units as well.
+
+![[PLL not locked]]
