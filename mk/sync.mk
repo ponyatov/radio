@@ -4,4 +4,6 @@ sync: doc
 
 .PHONY: unsync
 unsync:
-	rsync -r etc/sdrpp/frequency_manager_config.json $(HOME)/.config/sdrpp/frequency_manager_config.json
+	rsync -r \
+		etc/sdrpp/frequency_manager_config.json \
+		$(HOME)/.config/sdrpp/frequency_manager_config.json
