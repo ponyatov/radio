@@ -21,7 +21,7 @@
     "fftSmoothing": false,
     "fftSmoothingSpeed": 100,
     "fftWindow": 2,
-    "frequency": 40674500.0,
+    "frequency": 54913500.0,
     "fullWaterfallUpdate": false,
     "fullscreen": false,
     "invertIQ": false,
@@ -226,7 +226,7 @@
         "Radio": "#FFFFFF"
     },
     "vfoOffsets": {
-        "Radio": -160500.0
+        "Radio": 939500.0
     },
     "windowSize": {
         "h": 724,
