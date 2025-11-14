@@ -8,7 +8,7 @@
             "offsetTuning": false,
             "ppm": 0,
             "rtlAgc": false,
-            "sampleRate": 3200000.0,
+            "sampleRate": 1920000.0,
             "tunerAgc": false
         }
     }

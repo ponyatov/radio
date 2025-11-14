@@ -58,6 +58,11 @@
                     "frequency": 105400000.0,
                     "mode": 1
                 },
+                "105.7": {
+                    "bandwidth": 200000.0,
+                    "frequency": 105700000.0,
+                    "mode": 1
+                },
                 "106.1": {
                     "bandwidth": 200000.0,
                     "frequency": 106100000.0,
@@ -197,6 +202,11 @@
         },
         "Unknown": {
             "bookmarks": {
+                "26.486": {
+                    "bandwidth": 15000.0,
+                    "frequency": 26486000.0,
+                    "mode": 2
+                },
                 "28.8": {
                     "bandwidth": 5555.0,
                     "frequency": 28800000.0,
@@ -206,6 +216,31 @@
                     "bandwidth": 50000.0,
                     "frequency": 434200000.0,
                     "mode": 0
+                },
+                "6.164": {
+                    "bandwidth": 15000.0,
+                    "frequency": 6164000.0,
+                    "mode": 2
+                },
+                "7.250": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7250000.0,
+                    "mode": 2
+                },
+                "7.445": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7445000.0,
+                    "mode": 2
+                },
+                "8.075": {
+                    "bandwidth": 13811.449284949284,
+                    "frequency": 8075000.0,
+                    "mode": 2
+                },
+                "8.290": {
+                    "bandwidth": 13811.44921875,
+                    "frequency": 8290000.0,
+                    "mode": 2
                 },
                 "868.0": {
                     "bandwidth": 200000.0,
@@ -221,10 +256,100 @@
                     "bandwidth": 200000.0,
                     "frequency": 869100000.0,
                     "mode": 1
+                },
+                "9.025": {
+                    "bandwidth": 13811.44921875,
+                    "frequency": 9025000.0,
+                    "mode": 2
+                },
+                "9.629": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9629800.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "arabic": {
+            "bookmarks": {
+                "5.970": {
+                    "bandwidth": 15000.0,
+                    "frequency": 5970000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "china": {
+            "bookmarks": {
+                "6.040": {
+                    "bandwidth": 15000.0,
+                    "frequency": 6040000.0,
+                    "mode": 2
+                },
+                "7.214": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7214000.0,
+                    "mode": 2
+                },
+                "7.264": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7264000.0,
+                    "mode": 2
+                },
+                "7.350": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7350000.0,
+                    "mode": 2
+                },
+                "7.433": {
+                    "bandwidth": 15000.0,
+                    "frequency": 7433000.0,
+                    "mode": 2
+                },
+                "9.377": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9377000.0,
+                    "mode": 2
+                },
+                "9.380": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9380000.0,
+                    "mode": 2
+                },
+                "9.52": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9520000.0,
+                    "mode": 2
+                },
+                "CRI": {
+                    "bandwidth": 15000.0,
+                    "frequency": 733000.0,
+                    "mode": 2
+                },
+                "New Bookmark": {
+                    "bandwidth": 200000.0,
+                    "frequency": 721000.0,
+                    "mode": 2
+                },
+                "New Bookmark (1)": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9560000.0,
+                    "mode": 2
+                }
+            },
+            "showOnWaterfall": true
+        },
+        "en": {
+            "bookmarks": {
+                "9.875": {
+                    "bandwidth": 15000.0,
+                    "frequency": 9876000.0,
+                    "mode": 2
                 }
             },
             "showOnWaterfall": true
         }
     },
-    "selectedList": "FM"
+    "selectedList": "Unknown"
 }

@@ -21,14 +21,14 @@
     "fftSmoothing": false,
     "fftSmoothingSpeed": 100,
     "fftWindow": 2,
-    "frequency": 855720000.0,
+    "frequency": 40674500.0,
     "fullWaterfallUpdate": false,
     "fullscreen": false,
     "invertIQ": false,
     "iqCorrection": false,
     "lockMenuOrder": false,
     "manualOffset": 0.0,
-    "max": 0.0,
+    "max": -3.5294151306152344,
     "maximized": false,
     "menuElements": [
         {
@@ -77,7 +77,7 @@
         }
     ],
     "menuWidth": 250,
-    "min": -114.11764526367188,
+    "min": -96.4705810546875,
     "moduleInstances": {
         "Airspy Source": {
             "enabled": true,
@@ -217,7 +217,7 @@
         "Radio": {
             "muted": false,
             "sink": "Audio",
-            "volume": 0.7035398483276367
+            "volume": 0.6571428775787354
         }
     },
     "theme": "Dark",
@@ -226,7 +226,7 @@
         "Radio": "#FFFFFF"
     },
     "vfoOffsets": {
-        "Radio": 280000.0
+        "Radio": -160500.0
     },
     "windowSize": {
         "h": 724,

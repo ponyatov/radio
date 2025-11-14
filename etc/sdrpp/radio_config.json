@@ -12,7 +12,7 @@
         },
         "CW": {
             "FMIFNREnabled": false,
-            "bandwidth": 200.0,
+            "bandwidth": 500.0,
             "deempMode": "None",
             "noiseBlankerEnabled": false,
             "noiseBlankerLevel": 1.0,
@@ -32,7 +32,7 @@
         },
         "FM": {
             "FMIFNREnabled": false,
-            "bandwidth": 50000.0,
+            "bandwidth": 38827.09765625,
             "deempMode": "None",
             "fmifnrPreset": "Narrow Band",
             "highPass": false,
@@ -45,7 +45,7 @@
         },
         "LSB": {
             "FMIFNREnabled": false,
-            "bandwidth": 2800.0,
+            "bandwidth": 5555.0,
             "deempMode": "None",
             "noiseBlankerEnabled": false,
             "noiseBlankerLevel": 1.0,
@@ -84,6 +84,6 @@
             "squelchLevel": -100.0,
             "stereo": true
         },
-        "selectedDemodId": 1
+        "selectedDemodId": 2
     }
 }
